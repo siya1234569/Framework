@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Tests.listners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="validateTitle(failed)">
+    <classes>
+      <class name="Tests.validateSignInDetails">
+        <methods>
+          <include name="initialise"/>
+          <include name="tearDown"/>
+          <include name="to_validate_User" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Tests.validateSignInDetails -->
+    </classes>
+  </test> <!-- validateTitle(failed) -->
+  <test thread-count="5" name="SignIn(failed)">
+    <classes>
+      <class name="Tests.HomePage">
+        <methods>
+          <include name="basePagenavigation"/>
+          <include name="tearDown"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- Tests.HomePage -->
+    </classes>
+  </test> <!-- SignIn(failed) -->
+</suite> <!-- Failed suite [Suite] -->

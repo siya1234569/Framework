@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15175" started-at="2020-07-28T13:07:53Z" finished-at="2020-07-28T13:08:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15175" started-at="2020-07-28T13:07:53Z" finished-at="2020-07-28T13:08:08Z">
+      <class name="Tests.SearchFunctionality">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Tests.SearchFunctionality@1686d1f]" name="initialise" is-config="true" duration-ms="12897" started-at="2020-07-28T13:07:53Z" finished-at="2020-07-28T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:Tests.SearchFunctionality@1686d1f]" name="TC_01" duration-ms="609" started-at="2020-07-28T13:08:06Z" finished-at="2020-07-28T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="validate_Search()[pri:0, instance:Tests.SearchFunctionality@1686d1f]" name="validate_Search" duration-ms="1578" started-at="2020-07-28T13:08:07Z" finished-at="2020-07-28T13:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Search -->
+      </class> <!-- Tests.SearchFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
